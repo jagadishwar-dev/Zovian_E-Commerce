@@ -80,3 +80,17 @@ Product information is fetched from [Fake Store API](https://fakestoreapi.com/).
 **Jagadishwar**
 
 GitHub: https://github.com/jagadishwar-dev
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Products Page
+![Products Page](screenshots/products.png)
+
+### Product Details
+![Product Details](screenshots/product-details.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/cart.png)
