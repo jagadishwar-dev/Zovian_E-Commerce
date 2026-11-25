@@ -84,13 +84,13 @@ GitHub: https://github.com/jagadishwar-dev
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](e_commerce\src\screenshots\home.png)
 
 ### Products Page
-![Products Page](screenshots/products.png)
+![Products Page](e_commerce\src\screenshots\products.png)
 
 ### Product Details
-![Product Details](screenshots/product-details.png)
+![Product Details](e_commerce\src\screenshots\product_details.png)
 
 ### Shopping Cart
-![Shopping Cart](screenshots/cart.png)
+![Shopping Cart](e_commerce\src\screenshots\cart.png)
