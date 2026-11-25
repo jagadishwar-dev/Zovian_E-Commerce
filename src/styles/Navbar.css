@@ -1,0 +1,36 @@
+.navbar{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.icon{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navlinks{
+    display: flex;
+    gap: 25px;
+    margin-left: 6%;
+}
+
+.navlinks a{
+    color: rgba(165, 42, 42, 0.477);
+     
+}
+
+.navicons{
+    display: flex;
+    gap: 15px;
+}
