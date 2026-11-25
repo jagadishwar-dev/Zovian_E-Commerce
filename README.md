@@ -1,16 +1,82 @@
-# React + Vite
+# Zovian – E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zovian is a responsive e-commerce web application developed using React.js. It allows users to browse products, search and filter items, view product details, manage their cart and wishlist, and authenticate using Auth0.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Axios
+- Auth0 Authentication
+- Fake Store API
+- Vite
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive user interface
+- Product listing and category-based browsing
+- Search and filter products
+- Product sorting
+- Individual product details
+- Add and remove products from cart
+- Update product quantities
+- Wishlist management
+- User authentication using Auth0
+- Product data fetched using Fake Store API
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jagadishwar-dev/Zovian_E-Commerce.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Zovian_E-Commerce
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the project root and configure your Auth0 details:
+
+   ```env
+   VITE_AUTH0_DOMAIN=your_auth0_domain
+   VITE_AUTH0_CLIENT_ID=your_auth0_client_id
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL displayed in your terminal.
+
+## Environment Variables
+
+The project uses Auth0 for authentication. Configure the following environment variables in your local `.env` file:
+
+- `VITE_AUTH0_DOMAIN`
+- `VITE_AUTH0_CLIENT_ID`
+
+Do not upload your `.env` file to GitHub.
+
+## API
+
+Product information is fetched from [Fake Store API](https://fakestoreapi.com/).
+
+## Developer
+
+**Jagadishwar**
+
+GitHub: https://github.com/jagadishwar-dev
